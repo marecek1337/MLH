@@ -1,0 +1,3 @@
+<template>
+    Assignment preview
+</template>
