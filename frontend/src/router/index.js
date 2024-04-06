@@ -4,6 +4,7 @@ import assignemntPreview from "@/views/AssignmentPreview.vue";
 import linkOfAssignments from "@/views/ListOfAssignments.vue";
 import submitForm from "@/views/SubmitForm.vue";
 import listOfStudents from "@/views/ListOfStudents.vue";
+import user from "@/views/UserProfile.vue";
 
 
 
@@ -32,6 +33,11 @@ const routes = [
     path: "/form",
     name: "submitForm",
     component: submitForm,
+  },
+  {
+    path: "/user",
+    name: "user",
+    component: user,
   }
 ];
 
