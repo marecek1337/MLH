@@ -10,7 +10,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 # Path to your image
-image_path = "figma.jpg"
+image_path = "f.jpg"
 
 # Getting the base64 string
 base64_image = encode_image(image_path)

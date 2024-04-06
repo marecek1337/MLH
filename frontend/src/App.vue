@@ -1,7 +1,5 @@
 <template>
-      <router-link to="/">login</router-link> 
-      <router-link to="/linkOfAssignments">list</router-link>
-      <router-link to="/assignemntPreview">preview</router-link>
+
   <router-view />
 
 </template>
