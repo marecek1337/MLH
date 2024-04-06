@@ -1,18 +1,19 @@
 import { createWebHistory, createRouter } from "vue-router";
-import LoginPage from "@/views/LoginPage.vue";
+
 import assignemntPreview from "@/views/AssignmentPreview.vue";
 import linkOfAssignments from "@/views/ListOfAssignments.vue";
 import submitForm from "@/views/SubmitForm.vue";
 import listOfStudents from "@/views/ListOfStudents.vue";
 import user from "@/views/UserProfile.vue";
+import main from "@/views/MainScreen.vue";
 
 
 
 const routes = [
   {
     path: "/",
-    name: "LoginPage",
-    component: LoginPage,
+    name: "main",
+    component: main,
   },
   {
     path: "/assignemntPreview",
