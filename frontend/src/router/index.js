@@ -6,6 +6,7 @@ import submitForm from "@/views/SubmitForm.vue";
 import listOfStudents from "@/views/ListOfStudents.vue";
 import user from "@/views/UserProfile.vue";
 import main from "@/views/MainScreen.vue";
+import student from "@/views/StudentPreview.vue";
 
 
 
@@ -39,6 +40,12 @@ const routes = [
     path: "/user",
     name: "user",
     component: user,
+  }
+  ,
+  {
+    path: "/student/:id",
+    name: "student",
+    component: student,
   }
 ];
 

@@ -13,7 +13,7 @@
     name: 'AiEvaluationInfo',
     methods: {
       goToDemo() {
-        // Use this.$router.push('/demo') for internal navigation or
+        this.$router.push('/form') 
         // window.location.href = 'https://example.com/demo' for external URL redirection
       },
     },
